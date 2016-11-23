@@ -1,0 +1,70 @@
+#myStoryHTML {
+    margin: auto;
+    padding: auto;
+
+}
+#myStoryHTML p {
+    text-align: justify;
+    tab-size: 8;
+    cursor: text;
+    padding: 5px;
+    background: #dfdfdf;
+    font-size: 20px;
+    width: auto;
+    border: 1px gold solid;
+    height: auto;
+    word-wrap: break-word;
+
+    /*text unselectable*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+body {
+    background: url(images/Letters.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Tempus Sans ITC";
+}
+h2 { color: #d5bb33;
+    font-size: 165px;
+    line-height: 160px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff; }
+
+a { color: #d5bb33;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 50px; }
+
+#storylist {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    background: #dfdfdf;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+    border-radius: 10px;
+
+}
+
+h3{
+    color: #d5bb33;
+    font-size: 60px;
+    line-height: 160px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: left;
+
+}
